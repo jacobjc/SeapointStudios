@@ -38,7 +38,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 16,
+    "uniqCompNum": 17,
     "versionPublish": "4.8.10",
     "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128.png",
     "noImageResize": ""
@@ -509,6 +509,161 @@
           "_once": false,
           "_params": {},
           "_anchor": "header4-f"
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-icofont": {
+              "font-size": "48px",
+              "color": "#353535"
+            },
+            ".show-modal span": {
+              "cursor": "pointer",
+              "background-color": "#ffffff",
+              "border-radius": "50%",
+              "width": "6rem",
+              "height": "6rem",
+              "position": "relative",
+              "display": "inline-block",
+              "transition": "all 0.25s",
+              "&:before": {
+                "position": "absolute",
+                "left": "50%",
+                "top": "50%",
+                "-webkit-transform": "translateX(-50%) translateY(-50%)",
+                "transform": "translateX(-50%) translateY(-50%)"
+              }
+            },
+            ".mbr-figure": {
+              "width": "100px",
+              "height": "100px",
+              "margin-bottom": "10px",
+              "margin": "auto",
+              "transition": "transform 1s",
+              "cursor": "pointer",
+              "a": {
+                "width": "100px",
+                "height": "100px",
+                "line-height": "100px",
+                "font-size": "100px",
+                "&:before": {
+                  "width": "100px",
+                  "height": "100px"
+                }
+              },
+              "&:hover": {
+                "transform": "scale(1.15)",
+                "transition": "transform 1s",
+                "-webkit-transform": "scale(1.15)"
+              }
+            },
+            ".mbri-play:before": {
+              "left": "55% !important"
+            },
+            ".form-inline": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              ".form-group": {
+                "padding": "0.5rem"
+              },
+              "input": {
+                "text-align": "center"
+              }
+            },
+            "h3": {
+              "color": "#ffffff",
+              "text-align": "center",
+              "font-weight": "300"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "display": "none",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              "& .modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle",
+                "text-align": "-o-center",
+                "& .modalWindow-video-container": {
+                  "display": "inline-block",
+                  "width": "100%",
+                  ".modalWindow-video": {
+                    "margin": "auto"
+                  }
+                }
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "#ffffff",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "#ffffff"
+              }
+            },
+            "@media (max-width: 500px)": {
+              ".modalWindow-video": {
+                "width": "80%",
+                "height": "200px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 500px) and (max-width: 768px)": {
+              ".modalWindow-video": {
+                "width": "90%",
+                "height": "340px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 768px) and (max-width: 850px)": {
+              ".modalWindow-video": {
+                "width": "700px",
+                "height": "395px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 850px) and (max-width: 1300px)": {
+              ".modalWindow-video": {
+                "width": "800px",
+                "height": "452px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 1300px)": {
+              ".modalWindow-video": {
+                "width": "1200px",
+                "height": "675px",
+                "position": "relative"
+              }
+            }
+          },
+          "_name": "header13",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background' :bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Video Popup\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"mbr-media show-modal align-center pb-4 mb-4 pt-5\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n            <span mbr-icon class=\"mbri-play mbr-icofont\">\n            </span>\n        </div>\n\n        <h1 class=\"mbr-section-title align-center pb-3 mbr-white mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n            INTRO WITH POPUP VIDEO\n        </h1>\n\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Full-screen intro with background image, color, overlay, icons, popup video and subscribe form\n        </h3>\n\n        <div class=\"container mt-5 pt-5 pb-5\">\n            <div mbr-form class=\"media-container-column\">\n                <div data-form-alert hidden>\n                    Thanks for filling out the form!\n                </div>\n\n                <form class=\"form-inline\" action method=\"post\" name=\"Mobirise Form\">\n                    <input type=\"hidden\" value data-form-email=\"true\">\n                    <div class=\"form-group\">\n                        <input type=\"text\" class=\"form-control input-sm input-inverse\" name=\"name\" required data-form-field=\"Name\" placeholder=\"Name\">\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"email\" class=\"form-control input-sm input-inverse\" name=\"email\" required data-form-field=\"Email\" placeholder=\"Email\">\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"tel\" class=\"form-control input-sm input-inverse\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\">\n                    </div>\n                    <div class=\"buttons-wrap\" mbr-if=\"showButtons\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a href class=\"btn btn-primary\" type=\"submit\" role=\"button\">SUBSCRIBE</a>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rdq5Z46j7U",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header13-g"
         },
         {
           "_styles": {
