@@ -28,13 +28,12 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#02c1ff",
-        "#062a4d",
-        "#00a3d9",
-        "#d24700",
-        "#813915",
         "#333333",
-        "#ff0000"
+        "#ff0000",
+        "#4f71ca",
+        "#ff0094",
+        "#00c1ff",
+        "#593f2a"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -42,7 +41,7 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 10,
     "versionPublish": "4.8.10",
-    "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x215.png",
     "noImageResize": "",
     "screenshot": "screenshot.png"
   },
