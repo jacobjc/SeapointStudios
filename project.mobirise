@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Seapoint Studios",
-    "currentPage": "contactus.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -39,7 +39,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 10,
+    "uniqCompNum": 14,
     "versionPublish": "4.8.10",
     "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128-1.png",
     "noImageResize": "",
@@ -50,7 +50,7 @@
       "settings": {
         "main": true,
         "title": "Seapoint Studios",
-        "meta_descr": "The Best Cinematography on the Seacoast. We are a local video production company, and do commercial, drone, short, and feature film work and much more, all across New England.",
+        "meta_descr": "The Best Cinematography on the Seacoast. We're a local video production company, and do commercial, drone, short, and feature film work and much more, all across New England.\n\nSeapoint Studios is based out of Kittery Point, Maine.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
