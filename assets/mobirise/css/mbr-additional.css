@@ -685,6 +685,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -2533,7 +2534,7 @@ body {
 }
 .cid-rfQUjtZb7d .nav-link:hover,
 .cid-rfQUjtZb7d .dropdown-item:hover {
-  color: #232323 !important;
+  color: #c1c1c1 !important;
 }
 .cid-rdq6OJEiGG {
   background-image: url("../../../assets/images/imgp4544-1600x1064.jpg");
