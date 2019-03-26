@@ -3111,6 +3111,14 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rlRpTQwpel {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(45deg, #ff9f9f, #df0000);
+}
+.cid-rlRpTQwpel .btn {
+  margin: 0 0 .5rem 0;
+}
 .cid-rdpFJvXpdE {
   padding-top: 15px;
   padding-bottom: 15px;
