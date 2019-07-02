@@ -61,8 +61,8 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 58,
-    "versionPublish": "4.10.2",
+    "uniqCompNum": 60,
+    "versionPublish": "4.10.5",
     "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128-1.png",
     "noImageResize": "",
     "screenshot": "screenshot.png"
