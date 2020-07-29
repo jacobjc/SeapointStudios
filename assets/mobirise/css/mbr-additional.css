@@ -1129,13 +1129,6 @@ section.lazy-placeholder:after {
   padding-bottom: 45px;
   background: linear-gradient(45deg, #00c1ff, #002164);
 }
-.cid-rdpFOkfvB3 .main {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-.cid-rdpFOkfvB3 .main .mbr-section-btn {
-  text-align: right;
-}
 .cid-rdpFOkfvB3 .btn {
   margin: 0 0 .5rem 0;
 }
