@@ -2505,6 +2505,32 @@ section.lazy-placeholder:after {
 .cid-rhWiNpgy5I .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-s7bBeynL40 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/squirrelsbg1.png");
+}
+.cid-s7bBeynL40 .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-s7bBeynL40 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s7bBeynL40 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s7bBeynL40 .mbr-text {
+    text-align: center;
+  }
+}
 .cid-rlR4HyJrMh {
   padding-top: 15px;
   padding-bottom: 15px;

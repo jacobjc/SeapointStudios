@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Seapoint Studios",
-    "currentPage": "watch.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -61,9 +61,9 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 75,
+    "uniqCompNum": 74,
     "versionPublish": "4.12.4",
-    "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128_1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/seapointstudioslogosquaresmall-128x128-1.png",
     "noImageResize": null,
     "screenshot": "screenshot.png",
     "robotsSwitcher": false,
@@ -72,7 +72,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "imageResize": false,
+    "imageResize": true,
     "publishType": "local",
     "publishPath": "@PROJECT_PATH@"
   },
@@ -1815,7 +1815,7 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-4763-1-1920x1280.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://player.vimeo.com/video/313298519?muted=1&autoplay=1&loop=1&color=7d7d7d&title=0&byline=0&portrait=0\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">We're Proud of Our Work</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Here at Seapoint, our number one goal has always been to provide professional quality video content at affordable prices. Some of our projects can be viewed below.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-4763-1-1920x1280.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://player.vimeo.com/video/313298519?muted=1&autoplay=1&loop=1&color=7d7d7d&title=0&byline=0&portrait=0\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Our Work</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Seapoint Studios provides exceptional quality work at affordable prices.<br>Some of our past work can be viewed below.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "header16-n",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2244,55 +2244,6 @@
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(45deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              }
-            },
-            ".mbr-figure": {
-              "@media (min-width: 992px)": {
-                "padding-right": "4rem",
-                "& when (@reverseContent)": {
-                  "padding-right": "0",
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                "padding-bottom": "3rem"
-              }
-            },
-            ".mbr-text": {
-              "@media (max-width: 767px)": {
-                "text-align": "center"
-              }
-            }
-          },
-          "_name": "header3",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"110\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/squirrelsbg1.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/squirrels.jpeg\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\"><b>The Squirrels in the Attic</b></h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">When public defender Ingrid Donahue (<i>Charlie Carr</i>) makes a house call to sex offender Dane Gage’s (<i>Paul Kandarian</i>) isolated home, the jarring appearance of a young woman, Kame (<i>Antonia Carroll</i>), changes Ingrid’s focus of her interrogation. As new information is revealed and the power dynamics shift between the three of them, one question pushes its way to the surface; who is safe and who is not?<br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white\" href=\"watch.html#header3-22\" data-app-placeholder=\"Type Text\">Watch Trailer</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"watch.html#header3-22\" data-app-placeholder=\"Type Text\">Awards &amp; More</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "s7bBeynL40",
-          "_anchor": "header3-22",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -2382,12 +2333,12 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020631_1738482020-6-5_18-26-50.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020427-2320142020-4-3-23-25-20.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=LU232sd7v5w",
+                "videoUrl": "https://www.youtube.com/watch?v=dCgRY_2PdgE",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Kittery, Maine: Traip Academy Graduation 2020 filmed by Seapoint Studios",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>TRAILER:</b> The Squirrels in the Attic (Award-Winning Short Film)",
@@ -2400,7 +2351,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=duryIAVlwqg",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "The Portsmouth Gas Light Commerical made by local video production company Seapoint Studios",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Portsmouth Gas Light Commercial",
@@ -2413,7 +2364,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=WxV4cbmawIQ",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Popular band Fist Fight worked with filmmaker Jacob J. Christiansen on this music video",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "FisT FighT - In This Life (Official Music Video)",
@@ -2426,7 +2377,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=QV1Z4dSe8QQ&list=PLtyCPsLRcgtKpHH_ku8mQmAaMLRT5OpwE&index=4",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Filmmaker Jacob J. Christiansen worked with University of Colorado Boulder to create the \"I'm an Engineer\" series",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Univ. of Colorado Boulder: \"I'm an Engineer\" Campaign",
@@ -2439,7 +2390,7 @@
                 "videoUrl": "https://vimeo.com/jacobjc/vacationland",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "The award winning short film Vacationland made by local filmmaker Jacob J. Christiansen",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Maine Outdoor Film Festival (2017)",
@@ -2452,7 +2403,7 @@
                 "videoUrl": "https://vimeo.com/jacobjc/thewaylifeshouldbe",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "The award winning short film The Way Life Should Be created by native filmmaker Jacob J. Christiansen",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Maine Outdoor Film Festival (2016)",
@@ -2465,7 +2416,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=nVTTh0bcHzw",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Professional drone footage of the Maine Seacoast",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Drone Cinematography for Kittery Maine",
@@ -2478,7 +2429,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-1-1500x844-800x450.png",
-                "alt": "Filmmaker Jacob J. Christiansen on set of Lifetime's \"A Very Merry Toy Store\"",
+                "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Lifetime's \"A Very Merry Toy Store\" (Lighting Dept. Assistant)",
