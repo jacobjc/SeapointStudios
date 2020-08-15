@@ -106,7 +106,7 @@ body {
   background-color: #879a9f !important;
 }
 .bg-danger {
-  background-color: #b1a374 !important;
+  background-color: #131313 !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -210,8 +210,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #b1a374 !important;
-  border-color: #b1a374 !important;
+  background-color: #131313 !important;
+  border-color: #131313 !important;
   color: #ffffff !important;
 }
 .btn-danger:hover,
@@ -219,14 +219,14 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff !important;
-  background-color: #8b7d4e !important;
-  border-color: #8b7d4e !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
   color: #ffffff !important;
-  background-color: #8b7d4e !important;
-  border-color: #8b7d4e !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-white {
   color: #333333 !important;
@@ -374,22 +374,22 @@ body {
 .btn-danger-outline,
 .btn-danger-outline:active {
   background: none;
-  border-color: #7a6e45;
-  color: #7a6e45;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
   color: #ffffff;
-  background-color: #b1a374;
-  border-color: #b1a374;
+  background-color: #131313;
+  border-color: #131313;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #ffffff !important;
-  background-color: #b1a374 !important;
-  border-color: #b1a374 !important;
+  background-color: #131313 !important;
+  border-color: #131313 !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -441,7 +441,7 @@ body {
   color: #879a9f !important;
 }
 .text-danger {
-  color: #b1a374 !important;
+  color: #131313 !important;
 }
 .text-white {
   color: #ffffff !important;
@@ -471,7 +471,7 @@ a.text-warning:focus {
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #7a6e45 !important;
+  color: #000000 !important;
 }
 a.text-white:hover,
 a.text-white:focus {
@@ -491,7 +491,7 @@ a.text-black:focus {
   background-color: #879a9f;
 }
 .alert-danger {
-  background-color: #b1a374;
+  background-color: #131313;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
@@ -541,7 +541,7 @@ a:hover {
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #dfd9c6;
+  color: #c5c5c5;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
@@ -2530,6 +2530,33 @@ section.lazy-placeholder:after {
   .cid-s7bBeynL40 .mbr-text {
     text-align: center;
   }
+}
+.cid-s7GG7tkpgY {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/crowsbg-1.jpg");
+}
+@media (min-width: 992px) {
+  .cid-s7GG7tkpgY .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s7GG7tkpgY .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s7GG7tkpgY .mbr-text {
+    text-align: center;
+  }
+}
+.cid-s7GG7tkpgY H1 {
+  color: #000000;
+}
+.cid-s7GG7tkpgY .mbr-text,
+.cid-s7GG7tkpgY .mbr-section-btn {
+  color: #000000;
 }
 .cid-rlR4HyJrMh {
   padding-top: 15px;
