@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Seapoint Studios",
-    "currentPage": "squirrels.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -73,7 +73,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "imageResize": true,
-    "htmltag": "<html>"
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
+    "htmltag": "undefined"
   },
   "pages": {
     "index.html": {
