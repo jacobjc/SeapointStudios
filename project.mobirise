@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Seapoint Studios",
-    "currentPage": "watch.html",
+    "currentPage": "contactus.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -73,6 +73,8 @@
     "cookiesAlert": false,
     "gdpr": false,
     "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "htmltag": "<html>"
   },
   "pages": {
@@ -1158,10 +1160,10 @@
     },
     "contactus.html": {
       "settings": {
-        "meta_descr": "Contact Seapoint Studios via phone, email, or website form.",
+        "meta_descr": "Contact Seapoint Studios via phone, email, or online form.",
         "title": "Contact Us",
         "order": 4,
-        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/contactus.html\"/>\n<meta property=\"og:title\" content=\"Seapoint Studios | Contact Us\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:description\" content=\"The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone, and much more.\"/>\n<meta name=\"twitter:title\" content=\"Seapoint Studios | Contact Us\"/>\n<meta name=\"twitter:description\" content=\"The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone, and much more.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>"
+        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/contactus.html\"/>\n<meta property=\"og:title\" content=\"Seapoint Studios | Contact Us\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:description\" content=\"Contact Seapoint Studios via phone, email, or online form.\"/>\n<meta name=\"twitter:title\" content=\"Seapoint Studios | Contact Us\"/>\n<meta name=\"twitter:description\" content=\"Contact Seapoint Studios via phone, email, or online form.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n"
       },
       "components": [
         {
@@ -1759,7 +1761,7 @@
         "meta_descr": "View Seapoint Studios' award winning video work here.",
         "title": "Featured Work",
         "order": 1,
-        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/watch.html\"/>\n<meta property=\"og:title\" content=\"Seapoint Studios | Our Featured Work\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:description\" content=\"The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone, and much more.\"/>\n<meta name=\"twitter:title\" content=\"Seapoint Studios | Our Featured Work\"/>\n<meta name=\"twitter:description\" content=\"The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone, and much more.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n"
+        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/watch.html\"/>\n<meta property=\"og:title\" content=\"Seapoint Studios | Our Featured Work\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:description\" content=\"View Seapoint Studios' award winning video work here.\"/>\n<meta name=\"twitter:title\" content=\"Seapoint Studios | Our Featured Work\"/>\n<meta name=\"twitter:description\" content=\"View Seapoint Studios' award winning video work here.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n\n"
       },
       "components": [
         {
