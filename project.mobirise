@@ -81,7 +81,7 @@
         "main": true,
         "title": "Seapoint Studios",
         "meta_descr": "The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone,  and much more, all across New England.\n\nSeapoint Studios is based out of Kittery Point, Maine.\n\nOur team of video professionals can create your content through affordable, high-quality productions. We have you covered from script, to shoot, to final edit. Contact us to discuss all your marketing and video production needs.\n\n\nVideotaping / Editing | Video Production | Web Content Creation-Encoding | DVD Authoring | DVD/CD Duplications | DVD Transfers | CD Transfers | Tape Repairs | Foreign Standard Conversions | Taping for Schools, Churches & Non-Profits | Equipment Rentals\n\nServing the NH & ME Portsmouth, Seacoast areas:\n\nNew Hampshire:\nBarrington, Dover, Durham, Exeter, Greenland, Hampton, Hampton Falls, Lee, Madbury, Newcastle, Newfields, Newington, Newmarket, North Hampton, Northwood, Nottingham, Portsmouth, Rochester, Rollinsford, Rye, Seabrook, Stratham, Somersworth\n\nMaine:\nBerwick, Eliot, Kittery, North Berwick, Ogunquit, Portland, South Berwick, Wells, York\n\nMassachusetts:\nBoston, Newburyport, Georgetown, Amherst, Worcester, Cape Cod, Springfield",
-        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\">",
+        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/index-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/\">\n<meta property=\"og:title\" content=\"Seapoint Studios | The Best Cinematography on the Seacoast\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=”og:type” content=”website” />\n<meta property=”og:description” content=\"The award-winning production house of Maine. We provide video production services such as short films, feature films, video editing, commercial, TV, drone,  and much more, all across New England.” />\n",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1160,8 +1160,7 @@
       "settings": {
         "meta_descr": "Contact Seapoint Studios via phone, email, or website form.",
         "title": "Contact Us",
-        "order": 4,
-        "meta_image": "@PROJECT_PATH@/assets/images/seapoint-social-share-image-1000x1000.jpg"
+        "order": 4
       },
       "components": [
         {
@@ -1758,8 +1757,7 @@
       "settings": {
         "meta_descr": "View Seapoint Studios' award winning video work here.",
         "title": "Featured Work",
-        "order": 1,
-        "meta_image": "@PROJECT_PATH@/assets/images/seapoint-social-share-image-1000x1000.jpg"
+        "order": 1
       },
       "components": [
         {
