@@ -4,22 +4,32 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- © 2019 Seapoint Studios - All Rights Reserved -->
+<!-- © 2020 Seapoint Studios - All Rights Reserved -->
 
 <url>
   <loc>https://seapoint.studio/</loc>
-  <lastmod>2019-04-08T21:02:24+00:00</lastmod>
+  <lastmod>2020-04-08T21:02:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://seapoint.studio/watch.html</loc>
-  <lastmod>2019-04-08T21:02:24+00:00</lastmod>
+  <lastmod>2020-04-08T21:02:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://seapoint.studio/contactus.html</loc>
-  <lastmod>2019-04-08T21:02:24+00:00</lastmod>
+  <lastmod>2020-04-08T21:02:24+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://seapoint.studio/squirrels.html</loc>
+  <lastmod>2020-04-08T21:02:24+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://seapoint.studio/crows.html</loc>
+  <lastmod>2020-04-08T21:02:24+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 
 
