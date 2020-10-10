@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Seapoint Studios",
-    "currentPage": "index.html",
+    "currentPage": "squirrels.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "imageResize": false,
+    "imageResize": true,
     "publishType": "local",
     "publishPath": "@PROJECT_PATH@",
     "htmltag": "<html>",
@@ -3496,8 +3496,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/the-squirrels-in-the-attic-poster-averagequality.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/the-squirrels-in-the-attic-poster-averagequality-800x1143.jpg",
+                "image": "@PROJECT_PATH@/assets/images/the-squirrels-in-the-attic-poster-mediumquality.png",
+                "thumb": "@PROJECT_PATH@/assets/images/the-squirrels-in-the-attic-poster-mediumquality-800x1143.png",
                 "alt": "Official poster of the awarding winning short film The Squirrels in the Attic",
                 "title": "",
                 "customStyle1": "display-7",
