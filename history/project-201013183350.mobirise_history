@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "path": "@PROJECT_PATH@",
+    "name": "Seapoint Studios",
+    "screenshot": "screenshot.png",
+    "versionFirst": "5.0.29",
+    "siteFonts": [],
+    "theme": {},
+    "currentPage": "index.html",
+    "versionPublish": "5.0.29",
+    "imageResize": true,
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": []
+    }
+  }
+}
