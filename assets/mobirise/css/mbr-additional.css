@@ -1171,8 +1171,8 @@ section.lazy-placeholder:after {
   color: #149dcc;
 }
 .cid-s5ZvB2bmSY {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-image: url("../../../assets/images/rsz-dsc01083-1500x1000.jpg");
 }
 .cid-s5ZvB2bmSY .testimonial-text {
@@ -3501,7 +3501,7 @@ section.lazy-placeholder:after {
 }
 .cid-s7Ty85tNJF {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #55b4d4;
 }
 .cid-s7Ty85tNJF .mbr-section-subtitle {
@@ -3541,6 +3541,21 @@ section.lazy-placeholder:after {
 }
 .cid-s7Ty85tNJF H2 {
   color: #131313;
+}
+.cid-soAdwVf46Q {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #55b4d4;
+}
+.cid-soAdwVf46Q .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-soAdwVf46Q .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-soAdwVf46Q H2 {
+  text-align: left;
+  color: #232323;
 }
 .cid-s7SxjqyCSZ {
   padding-top: 30px;
@@ -3651,7 +3666,7 @@ section.lazy-placeholder:after {
 .cid-s7X8zkShN6 {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-s7X8zkShN6 .mbr-section-subtitle {
   color: #767676;
@@ -4200,11 +4215,6 @@ section.lazy-placeholder:after {
 .cid-rhWiNpgy5I .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-s8wDZ5jLv1 {
-  padding-top: 45px;
-  padding-bottom: 30px;
-  background-color: #131313;
-}
 .cid-s8xe1JIPFs {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -4347,7 +4357,7 @@ section.lazy-placeholder:after {
   background: #efefef;
 }
 .cid-s8xgr4QLp3 H2 {
-  color: #000f13;
+  color: #232323;
 }
 .cid-s8xgs01U5P {
   padding-top: 0px;
@@ -4394,7 +4404,7 @@ section.lazy-placeholder:after {
 }
 .cid-s8xvdZMJ77 {
   padding-top: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #55b4d4;
 }
 .cid-s8xvdZMJ77 .mbr-section-subtitle {
@@ -4434,6 +4444,21 @@ section.lazy-placeholder:after {
 }
 .cid-s8xvdZMJ77 H2 {
   color: #131313;
+}
+.cid-soAftmu4gt {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #55b4d4;
+}
+.cid-soAftmu4gt .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-soAftmu4gt .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-soAftmu4gt H2 {
+  text-align: left;
+  color: #efefef;
 }
 .cid-s8xuSka4y6 {
   padding-top: 30px;
