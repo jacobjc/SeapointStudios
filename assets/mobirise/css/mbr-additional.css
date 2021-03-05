@@ -2563,11 +2563,11 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s7GG7tkpgY H1 {
-  color: #000000;
+  color: #efefef;
 }
 .cid-s7GG7tkpgY .mbr-text,
 .cid-s7GG7tkpgY .mbr-section-btn {
-  color: #000000;
+  color: #efefef;
 }
 .cid-s7GSId6PDd {
   padding-top: 45px;
@@ -3821,7 +3821,7 @@ section.lazy-placeholder:after {
   width: 100%;
 }
 .cid-s8xdHka1C1 {
-  background-image: url("../../../assets/images/262-0170.00-01-29-21.still002-2000x1125.jpeg");
+  background-image: url("../../../assets/images/vlcsnap-2021-03-04-16h44m14s331-2000x1125.png");
 }
 .cid-rhWiNpgy5I .navbar {
   padding: .5rem 0;
@@ -4215,6 +4215,20 @@ section.lazy-placeholder:after {
 .cid-rhWiNpgy5I .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-sqJxlZeseq {
+  background: #efefef;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background: linear-gradient(0deg, #efefef, #1b293b);
+}
+.cid-sqJxlZeseq .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-sqJxlZeseq .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s8xe1JIPFs {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -4319,7 +4333,7 @@ section.lazy-placeholder:after {
 .cid-s8xgr4QLp3 {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #55b4d4;
+  background-color: #4d6687;
 }
 .cid-s8xgr4QLp3 .mbr-section-subtitle {
   color: #767676;
@@ -4357,12 +4371,12 @@ section.lazy-placeholder:after {
   background: #efefef;
 }
 .cid-s8xgr4QLp3 H2 {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-s8xgs01U5P {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #55b4d4;
+  background-color: #4d6687;
 }
 .cid-s8xgs01U5P .mbr-section-subtitle {
   color: #767676;
@@ -4405,7 +4419,7 @@ section.lazy-placeholder:after {
 .cid-s8xvdZMJ77 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #55b4d4;
+  background-color: #4d6687;
 }
 .cid-s8xvdZMJ77 .mbr-section-subtitle {
   color: #767676;
@@ -4448,7 +4462,7 @@ section.lazy-placeholder:after {
 .cid-soAftmu4gt {
   padding-top: 0px;
   padding-bottom: 30px;
-  background-color: #55b4d4;
+  background-color: #4d6687;
 }
 .cid-soAftmu4gt .mbr-section-subtitle {
   color: #767676;
@@ -4458,7 +4472,7 @@ section.lazy-placeholder:after {
 }
 .cid-soAftmu4gt H2 {
   text-align: left;
-  color: #efefef;
+  color: #ffffff;
 }
 .cid-s8xuSka4y6 {
   padding-top: 30px;
