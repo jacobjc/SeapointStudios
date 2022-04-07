@@ -2569,6 +2569,32 @@ section.lazy-placeholder:after {
 .cid-s7GG7tkpgY .mbr-section-btn {
   color: #efefef;
 }
+.cid-t2huEWDimD {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/webp.net-resizeimage-1.png");
+}
+.cid-t2huEWDimD .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-t2huEWDimD .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-t2huEWDimD .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-t2huEWDimD .mbr-text {
+    text-align: center;
+  }
+}
 .cid-s7GSId6PDd {
   padding-top: 45px;
   padding-bottom: 0px;
