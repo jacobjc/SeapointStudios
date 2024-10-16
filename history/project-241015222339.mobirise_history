@@ -71,7 +71,9 @@
     "htmltag": "<html>",
     "google-analytics": "",
     "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '679836969267510');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=679836969267510&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-176208860-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-176208860-1');\n</script>",
-    "mbrsiteDomain": "zhuzmfasid"
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
+    "mbrsiteDomain": "a6txyg4it5"
   },
   "pages": {
     "index.html": {
@@ -5180,7 +5182,7 @@
         "meta_descr": "Check here for all updates regarding this highly anticipated film directed by Jacob J. Christiansen.",
         "title": "The Second Bird",
         "order": "4",
-        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/thesecondbird.html\">\n<meta property=\"og:title\" content=\"The Second Bird | Film Page\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"video.movie\" />\n<meta property=\"og:description\" content=\"View all updates regarding this highly anticipated film. Click to learn more.\"/>\n<meta name=\"twitter:title\" content=\"The Second Bird | Film Page\"/>\n<meta name=\"twitter:description\" content=\"Check here for all updates regarding this highly anticipated film directed by Jacob J. Christiansen.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n\n\n",
+        "header_custom": "<meta property=\"og:image\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n<meta property=\"og:url\" content=\"https://seapoint.studio/thesecondbird.html\">\n<meta property=\"og:title\" content=\"The Second Bird | Film Page\"/>\n<meta property=\"og:image:width\" content=\"1000\"/>\n<meta property=\"og:image:height\" content=\"1000\"/>\n<meta property=\"og:type\" content=\"video.movie\" />\n<meta property=\"og:description\" content=\"View all updates regarding this highly anticipated film. Click to learn more.\"/>\n<meta name=\"twitter:title\" content=\"The Second Bird | Film Page\"/>\n<meta name=\"twitter:description\" content=\"View all updates regarding this highly anticipated film. Click to learn more.\"/>\n<meta name=\"twitter:image\" content=\"https://seapoint.studio/assets/images/t2b-meta.jpg\"/>\n\n",
         "socialSharingUrl": ""
       },
       "components": [
