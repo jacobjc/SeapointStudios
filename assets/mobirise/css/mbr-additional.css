@@ -1104,6 +1104,11 @@ section.lazy-placeholder:after {
 .cid-rdpFOkfvB3 H3 {
   text-align: left;
 }
+.cid-uwfoO4FrUs {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/thumbnail-alt-title.jpeg");
+}
 .cid-tfVxHBDrgi {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -4742,56 +4747,10 @@ section.lazy-placeholder:after {
 .cid-urhRqw75Jd .mbr-section-btn {
   text-align: left;
 }
-.cid-urhWnO0Bm4 {
+.cid-uwfr8EXyGp {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/summer-sync.02-08-45-15.still001.jpg");
-}
-.cid-urhWnO0Bm4 .mbr-section-subtitle {
-  color: #bee4f1;
-}
-.cid-urhWnO0Bm4 .formoid {
-  margin: auto;
-}
-.cid-urhWnO0Bm4 .form-control {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.cid-urhWnO0Bm4 .input-group-btn .btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0 !important;
-}
-.cid-urhWnO0Bm4 input[type="email"] {
-  border-radius: 100px !important;
-}
-.cid-urhWnO0Bm4 a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-.cid-urhWnO0Bm4 a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
-}
-@media (max-width: 768px) {
-  .cid-urhWnO0Bm4 .mbr-form .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-urhWnO0Bm4 .form-group,
-  .cid-urhWnO0Bm4 .input-group-btn,
-  .cid-urhWnO0Bm4 .input-group-btn .btn {
-    max-width: 300px;
-    width: 100%;
-  }
-}
-@media (min-width: 769px) {
-  .cid-urhWnO0Bm4 .mbr-form .row > * {
-    padding: 0 0.5rem;
-  }
-}
-.cid-urhWnO0Bm4 H2 {
-  color: #ffffff;
 }
 .cid-urhG1CctiT {
   padding-top: 30px;
