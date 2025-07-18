@@ -4840,10 +4840,61 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-uRgjSdw2Ds {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #f7dfc4;
+}
+.cid-uRgjSdw2Ds P {
+  color: #767676;
+}
+.cid-uRgjSdw2Ds H1 {
+  color: #000000;
+}
+.cid-uRgjmPJHBZ {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #f7dfc4;
+}
+.cid-uRgjmPJHBZ .mbr-section-subtitle {
+  color: #4f4f4f;
+}
+.cid-uRgjmPJHBZ .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-uRgjmPJHBZ .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-uRgjmPJHBZ .team-item .item-image img {
+  width: 100%;
+}
+.cid-uRgjmPJHBZ .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-uRgjmPJHBZ .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-uRgjmPJHBZ .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-uRgjmPJHBZ .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-uRgjmPJHBZ .team-item .item-caption {
+  background: #ffffff;
+}
 .cid-uNRvGPhsk7 {
   padding-top: 120px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/scene38-sync.01-53-20-08.still004.png");
+  background-image: url("../../../assets/images/scene38-sync.01-53-20-08.still004-2000x1055.png");
 }
 .cid-uNRvGPhsk7 .icons-media-container {
   display: flex;
